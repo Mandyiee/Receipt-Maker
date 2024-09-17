@@ -20,17 +20,17 @@ This project uses the following resources:
 
 ### 1. **Image and Font Initialization**
    - The receipt background is loaded from `image/green.png`.
-   - The font `OpenSans-VariableFont_wdth,wght.ttf` is loaded, with an initial size of 25px for standard text rendering.
+   - The font `OpenSans.ttf` is loaded, with an initial size of 25px for standard text rendering.
 
 ### 2. **Adding Customer Information**
-   - Customer details (name, phone, and address) are overlaid onto the receipt in specific positions using the `overlayText` method.
+   - Customer details (name, phone, and address) are overlaid onto the receipt in specific positions .
 
 ### 3. **Adding Date**
    - The current date is retrieved and overlaid on the receipt image.
 
 ### 4. **Itemized List**
    - A loop iterates over the items in the receipt. Each item's name, price, and total price are rendered line by line in the appropriate sections of the receipt.
-   - The y-axis is dynamically updated using `yPadding` and `spacing` to ensure that items are spaced correctly.
+   - The y-axis is dynamically updated to ensure that items are spaced correctly.
 
 ### 5. **Adding Total Price**
    - After rendering the list of items, the total price is calculated and added at the bottom of the receipt in a larger font size (40px).
@@ -41,7 +41,7 @@ This project uses the following resources:
 ## How to Run
 
 1. **Set Up the Environment**:
-   - Ensure you have the required libraries and fonts in place. Place the font file (`OpenSans-VariableFont_wdth,wght.ttf`) in the project directory.
+   - Ensure you have the required libraries and fonts in place. Place the font file (`OpenSans.ttf`) in the project directory.
    - The receipt template image (`green.png`) should be located in the `image/` folder.
 
 2. **Compile and Run**:
