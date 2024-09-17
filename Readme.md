@@ -4,6 +4,9 @@
 
 After completing a previous project involving text rendering onto images, I decided to extend that functionality by developing a program to generate **receipts**. This project overlays customer information, transaction details, and itemized lists onto a receipt template image, saving the final product as a PNG file.
 
+This program created this image 
+![A Receipt](https://raw.githubusercontent.com/Mandyiee/Receipt-Maker/main/image/new.png)
+
 
 ## Dependencies
 
